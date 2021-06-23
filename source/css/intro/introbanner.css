@@ -1,0 +1,32 @@
+.m1>a {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.m2>a {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 52px;
+    font-weight: 900;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+.introbanner {
+    margin-top: 104px;
+}
+
+.m2 {
+    height: 52px;
+}
+
+.m1 {
+    height: 18px;
+    margin-bottom: 30px;
+}

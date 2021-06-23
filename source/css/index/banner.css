@@ -1,0 +1,85 @@
+body {
+    /* 背景图片 */
+    background: url(../../image/index/indexbac.png) no-repeat;
+}
+
+.banner {
+    /* banner栏的样式 */
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.banner-top>a>span {
+    /*  新专业的字体样式*/
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 33px;
+    font-weight: 900;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: 4px;
+    color: #fd6560;
+    width: 650px;
+    height: 63px;
+}
+
+.banner-top {
+    animation: handsomemove duration timing-function delay iteration-count direction fill-mode;
+}
+
+.banner-bottom {
+    /* 宠物资源库的字体样式 */
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #113e3d;
+    width: 638px;
+    height: 75px;
+    margin-top: 15px;
+}
+
+.banner-left {
+    /* banner左侧栏 */
+    width: 625px;
+    height: 115px;
+}
+
+.banner-img {
+    /* 白色骨头样式 */
+    width: 221px;
+    height: 122px;
+    margin-left: 96px;
+    margin-top: 42px;
+}
+
+.ball>img {
+    float: right;
+    position: relative;
+    animation: balljump 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+.ball {
+    width: 780px;
+    height: 275px;
+    margin-top: -426px;
+    position: absolute;
+    margin-left: -111px;
+}
+
+@keyframes balljump {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 200px;
+    }
+    75% {
+        top: 0px
+    }
+    100% {
+        top: 200px;
+    }
+}

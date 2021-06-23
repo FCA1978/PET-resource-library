@@ -1,0 +1,383 @@
+.content-top {
+    /* 内容区顶部样式 */
+    height: 450px;
+    width: 1200px;
+    margin-top: 264px;
+}
+
+.content-topleft {
+    /* 顶部左侧样式 */
+    float: left;
+    width: 757px;
+    height: 284px;
+    background: url(../../image/index/topbac.png) no-repeat right;
+}
+
+.content-topright {
+    /* 顶部右侧样式 */
+    float: right;
+    /* margin-left: 65px; */
+    margin-right: 54px;
+    margin-top: 20px;
+    width: 313px;
+    height: 266px;
+}
+
+.content-topright>div {
+    /* 内容区顶部右侧的大小 */
+    height: 113px;
+    width: 297px;
+}
+
+.content-topright>div>div {
+    /* 内容区顶部右侧里面图的样式 */
+    float: left;
+}
+
+.majoyfont>span {
+    /* 专业简介字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.majoyintro {
+    margin-bottom: 10px;
+}
+
+.button {
+    /* 按钮包裹的样式 */
+    margin-top: 43px;
+    width: 1170px;
+    height: 100px;
+    float: left;
+}
+
+.button>div {
+    /* 按钮样式 */
+    float: left;
+}
+
+.button>div:not(:first-child) {
+    /* 非第一个的按钮样式 */
+    margin-left: 23px;
+}
+
+.button>div:first-child {
+    /* 第一个的按钮样式 */
+    margin-left: 9px;
+}
+
+.middle-first {
+    /* 第一图框 */
+    width: 1200px;
+    height: 578px;
+    margin-top: 35px;
+}
+
+.middle-second {
+    /* 第二图框 */
+    width: 1200px;
+    height: 578px;
+}
+
+.middle-three {
+    /* 第三图框 */
+    width: 1200px;
+    height: 350px;
+}
+
+.f1one {
+    /* 内容区中间部分第一图框上半部分 */
+    height: 250px;
+    margin-bottom: 23px;
+}
+
+.f1onebind {
+    /* 包裹第一图框图片的div块 */
+    width: 275px;
+    height: 207px;
+    overflow: hidden;
+    float: left;
+}
+
+.f1onebind>a>img {
+    /* 图片的大小 */
+    width: 100%;
+    height: 100%;
+}
+
+.f1onebind>a>img:hover {
+    /* 鼠标覆盖时，第一图框图片的变化 */
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.f1twobind {
+    /* 包裹第一图框图片的div块 */
+    width: 275px;
+    height: 207px;
+    overflow: hidden;
+    float: left;
+}
+
+.f1twobind>a>img {
+    /* 图片的大小 */
+    width: 100%;
+    height: 100%;
+}
+
+.f1twobind>a>img:hover {
+    /* 鼠标覆盖时，第一图框图片的变化 */
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.f2onebind {
+    /* 包裹第二图框图片的div块 */
+    width: 275px;
+    height: 207px;
+    overflow: hidden;
+}
+
+.about-border {
+    /* 包裹图片加文字的div */
+    width: 278px;
+    height: 250px;
+    float: left;
+    margin-right: 22px;
+}
+
+.fwonebind>a>img {
+    /* 图片的大小 */
+    width: 100%;
+    height: 100%;
+}
+
+.f2onebind>a>img:hover {
+    /* 鼠标覆盖时，第二图框图片的变化 */
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.all-font>a {
+    /* 图片下面的字体 */
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.all-font {
+    width: 275px;
+    height: 21px;
+    float: left;
+    margin-top: 5px;
+}
+
+.f2twobind {
+    /* 包裹第二图框图片的div块 */
+    width: 275px;
+    height: 207px;
+    overflow: hidden;
+}
+
+.f2twobind>a>img {
+    /* 图片的大小 */
+    width: 100%;
+    height: 100%;
+}
+
+.f2twobind>a>img:hover {
+    /* 鼠标覆盖时，第二图框图片的变化 */
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.f3onebind {
+    /* 包裹第三图框图片的div块 */
+    width: 275px;
+    height: 207px;
+    overflow: hidden;
+    float: left;
+}
+
+.f3onebind>a>img {
+    /* 图片的大小 */
+    width: 100%;
+    height: 100%;
+}
+
+.f3onebind>a>img:hover {
+    /* 鼠标覆盖时，第三图框图片的变化 */
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.f1two {
+    /* 内容区中间部分第一图框下半部分 */
+    height: 221px;
+    margin-bottom: 23px;
+}
+
+.f2one {
+    /* 内容区中间部分第二图框上半部分 */
+    height: 221px;
+    margin-bottom: 23px
+}
+
+.f2two {
+    /* 内容区中间部分第二图框下半部分 */
+    height: 221px;
+    margin-bottom: 23px
+}
+
+.f3one {
+    /* 内容区中间部分第三图框*/
+    height: 221px;
+    margin-bottom: 23px
+}
+
+.adfirst {
+    /* 第一广告栏 */
+    width: 1190px;
+    height: 120px;
+    margin-bottom: 54px;
+    margin-top: 64px;
+}
+
+.adsecond {
+    /* 第二广告栏 */
+    width: 1190px;
+    height: 120px;
+    margin-bottom: 54px;
+    margin-top: 64px;
+}
+
+.titleimg {
+    /* 专业简介等图框的左上角的样式大小 */
+    height: 45px;
+    width: 134px;
+    margin-bottom: 20px;
+}
+
+.f1onebind {
+    /* 内容区中间部分第一图框上半部分图片的整体样式 */
+    float: left;
+    width: 275px;
+    height: 207px;
+    margin-right: 25px;
+}
+
+.f1twobind {
+    float: left;
+    width: 275px;
+    height: 207px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.f2onebind {
+    float: left;
+    width: 275px;
+    height: 207px;
+    margin-right: 25px;
+}
+
+.f2twobind {
+    float: left;
+    width: 275px;
+    height: 207px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.f3onebind {
+    width: 275px;
+    height: 207px;
+    margin-right: 25px;
+}
+
+.content-footer {
+    /* 内容区底部参建单位的整体大小 */
+    height: 300px;
+    background: url(../../image/index/bottombac.png) no-repeat right;
+}
+
+.content-top {
+    /* 内容区中间部分整体样式 */
+}
+
+f1onebind:first-child {
+    /* f1one图框中除了第一个的边距 */
+    margin-left: 15px;
+}
+
+.hoster>a {
+    /* 主持院校字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #f05957;
+}
+
+.school {
+    /* 职业学院字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.d1 {
+    /* 内容去底部主持院校块样式 */
+    width: 206px;
+    height: 85px;
+}
+
+.d2 {
+    /* 内容区底部参建单位块样式 */
+    width: 1240px;
+    height: 101px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.d2>div>a:hover {
+    /* 鼠标覆盖时，链接的的颜色 */
+    color: red;
+}
+
+.d2>div:nth-child(2) {
+    overflow: hidden;
+}
+
+.hoster {
+    /* 底部上部分字体 */
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.doi {
+    /* 底部下部分字体 */
+    margin-bottom: 2px;
+}
+
+.doi>a {
+    color: #f05957;
+}

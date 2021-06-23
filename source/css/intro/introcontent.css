@@ -1,0 +1,71 @@
+.content-text {
+    /* 内容文字区的样式 */
+    width: 859px;
+    height: 1036px;
+    float: left;
+    margin-top: 156px;
+}
+
+.s1 {
+    /* 标题的字体样式 */
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.content-text>div>span {
+    /* 段落字体的样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    display: block;
+    margin-bottom: 43px;
+}
+
+.content-pic {
+    /* 内容区图片区样式 */
+    float: right;
+    margin-top: 158px;
+    margin-left: 50px;
+}
+
+.imtop {
+    /* 上图  */
+    width: 290px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.imbottom {
+    /* 下图 */
+    width: 290px;
+    height: 450px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.imtop>img {
+    width: 100%;
+    height: 100%;
+}
+
+.imbottom>img {
+    width: 100%;
+    height: 100%;
+}
+
+.imtop:hover img {
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.imbottom:hover img {
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}

@@ -1,0 +1,226 @@
+.banner-insidetop>a {
+    /* 设置专业园地四个字的字体样式 */
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 52px;
+    font-weight: 600;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    z-index: 999;
+}
+
+.banner-insidetop {
+    /* 包含专业园地的框 */
+    width: 230px;
+    height: 180px;
+    padding-left: 91px;
+    margin-top: -29px;
+}
+
+.banner-insidetop>img {
+    float: right;
+    margin-top: -78px;
+    margin-right: -83px;
+}
+
+.insidebanner {
+    /* banner块的样式 */
+    margin-top: 136px;
+}
+
+.content-insidetop {
+    /* 内容区顶部的整个块的样式 */
+    height: 448px;
+}
+
+.content-insidetop>div {
+    /* 同一设置内容区顶部四个块的样式 */
+    float: left;
+    margin-top: 160px;
+}
+
+.insidetop1 {
+    /* 内容区顶部的四个块 */
+    width: 290px;
+    height: 450px;
+    background: url(../../image/inside/top1.png) #f9f4f0 no-repeat;
+}
+
+.insidetop2 {
+    /* 内容区顶部的四个块 */
+    width: 290px;
+    height: 450px;
+    margin-left: 13px;
+    background: url(../../image/inside/top2.png) #f9f4f0 no-repeat;
+}
+
+.insidetop3 {
+    /* 内容区顶部的四个块 */
+    width: 290px;
+    height: 450px;
+    margin-left: 13px;
+    background: url(../../image/inside/top3.png) #f9f4f0 no-repeat;
+}
+
+.insidetop4 {
+    /* 内容区顶部的四个块 */
+    width: 290px;
+    height: 450px;
+    margin-left: 13px;
+    background: url(../../image/inside/top4.png) #f9f4f0 no-repeat;
+}
+
+.name {
+    /* 内容区顶部专业概括 人才培养方案等的统一样式 */
+    padding-top: 165px;
+    padding-left: 29px;
+}
+
+.name>a {
+    /* 内容区顶部的大字样式 */
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 24px;
+    font-weight: 700;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #113e3d;
+}
+
+.beintro {
+    /* 内容区顶部介绍的样式 */
+    padding-top: 29px;
+    padding-left: 30px;
+    width: 229px;
+    height: 136px;
+}
+
+.content-insidebottom {
+    /* 内容区底部整体样式 */
+    height: 580px;
+    margin-top: 343px;
+}
+
+.insidebottom-left {
+    /* 内容区底部左侧样式 */
+    width: 552px;
+    height: 570px;
+    float: left;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 20px 0px rgba(157, 157, 157, 0.2);
+}
+
+.insidebottom-right {
+    /* 内容区底部右侧样式 */
+    width: 552px;
+    height: 570px;
+    float: right;
+    margin-left: 35px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 20px 0px rgba(157, 157, 157, 0.2);
+}
+
+.learnmore {
+    /* 查看更多的样式 */
+    padding-left: 30px;
+    padding-top: 16px;
+}
+
+.k1>a {
+    /* 建设动态的字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #113e3d;
+}
+
+.k1 {
+    /* 调整建设动态块的样式 */
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+.co1 {
+    /* 底部内容区字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 50px;
+    letter-spacing: 0px;
+    color: #113e3d;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.co1>div {
+    /* 给内容加上下划线 */
+    border-bottom: 1px #f1eee9 solid;
+    width: 496px;
+    height: 50px;
+}
+
+.insidebottom-left>div:first-child,
+.insidebottom-right>div:first-child {
+    /* 调整两只鹦鹉的位置 */
+    float: left;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.learnmore2 {
+    /* 内容区底部的查看更多的样式 */
+    margin-left: 29px;
+    margin-top: 22px;
+}
+
+.inright {
+    /* 调试内容区底部日期与文字的距离 */
+    float: right;
+}
+
+.inleft {
+    /* 调试内容区底部日期与文字的距离 */
+    float: left;
+}
+
+.hvr-underline-from-center:hover a {
+    color: red;
+}
+
+.beintro>span {
+    /* 内容区顶部字体内容 */
+    font-family: MicrosoftYaHei;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 25px;
+    letter-spacing: -1px;
+    color: #555555;
+}
+
+.learnmore>a {
+    /* 查看更多的字体样式 */
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #f15956;
+}
+
+.learnmore2>a {
+    /* 查看更多字体样式 */
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #f15956;
+}

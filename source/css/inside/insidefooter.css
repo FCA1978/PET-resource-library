@@ -1,0 +1,27 @@
+.footer {
+    height: 60px;
+    background-color: #f9f4ee;
+    text-align: center;
+}
+
+.footer>span {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #999999;
+    display: block;
+    padding-top: 20px;
+}
+
+.footer>span>a:hover {
+    color: red;
+}
+
+.paw {
+    /* 猫抓的位置 */
+    position: relative;
+    left: 1750px;
+}
